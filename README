@@ -1,4 +1,4 @@
-This will gather the entries from thenion.com's American Voices
+This will gather the entries from theonion.com's American Voices
 section. To use it:
 
  - % make gather : to output entries to results.txt
