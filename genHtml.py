@@ -1,6 +1,15 @@
 import fileinput, sys
 from collections import OrderedDict
 
+"""
+Reads from STDIN and outputs HTML.  Input is in the form:
+
+http://o.onionstatic.com/images/10/10317/3x4/148.jpg?0516|Kim Bachrach|Unemployed|http://www.theonion.com/articles/apple-unveils-ipad-mini,30068/
+
+And should be created from americanVoices.py
+
+"""
+
 class Info:
     
     def __init__(self,name,job,url):

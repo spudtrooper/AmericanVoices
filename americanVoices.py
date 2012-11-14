@@ -1,6 +1,10 @@
 import os, re, string, sys, urllib2
 from BeautifulSoup import BeautifulSoup
 
+"""
+Reads American Voices entries from theonion.com and outputs to STDOUT.
+"""
+
 LAST_URL_FILE = 'lastUrl.txt'
 
 def log(msg):
